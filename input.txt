@@ -1,7 +1,6 @@
-3
-sakib ahmed
-73 93
-rakib mia
-24 81
-akib hossain
-53 75
+5
+sakib 73 93
+rakib 24 81
+hossain 42 72
+akib 53 75
+hasan 62 80
