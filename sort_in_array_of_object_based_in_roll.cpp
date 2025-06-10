@@ -9,30 +9,33 @@ public:
     int mark;
 };
 
-bool cmp(Student l, Student r) // here we make a cmp function to compare mark
+bool camp(Student l, Student r)
 {
-    if (l.mark < r.mark)
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
+    // if (l.roll < r.roll) // check every roll and return true or false
+    // {
+    //     return true;
+    // }
+    // else
+    // {
+    //     return false;
+    // }
+
+    return l.roll < r.roll;
 }
 
 int main()
 {
     int n;
     cin >> n;
-    Student arr[n];
+
+    Student arr[n]; // make a array of object
 
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i].name >> arr[i].roll >> arr[i].mark;
     }
 
-    sort(arr, arr + n, cmp); // sort function calling way
+    sort(arr, arr + n, camp); // sort here
 
     for (int i = 0; i < n; i++)
     {
