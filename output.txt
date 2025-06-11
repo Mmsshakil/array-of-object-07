@@ -1,5 +1,6 @@
-karim 10 93
-rakib 24 93
-hossain 42 93
-akib 53 93
-sakib 73 93
+0
+2
+-1
+0
+1
+-1
